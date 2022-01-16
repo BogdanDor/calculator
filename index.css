@@ -1,0 +1,117 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #F5F5FA;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  background-color: #8B8A99;
+}
+input {
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+.container {
+  margin: auto;
+  width: 288px;
+  min-width: 288px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  width: 100%;
+  text-align: center;
+}
+.value {
+  margin: 0 4px 8px 4px;
+  width: 100%;
+  padding: 8px;
+  height: 48px;
+  text-align: right;
+  background-color: #706F7F;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #383740;
+}
+.button {
+  margin: 0 4px 8px 4px;
+  width: 64px;
+  height: 64px;
+  background-color: #706F7F;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #383740;
+}
+.button:hover {
+  background-color: #383740;
+}
+.button:active {
+  background-color: #2D2C33;
+}
+.button[name='ac'] {}
+.button[name='0'] {
+  order: 15;
+  margin-top: -72px;
+  width: 136px;
+}
+.button[name='1'] {
+  order: 11;
+}
+.button[name='2'] {
+  order: 12;
+}
+.button[name='3'] {
+  order: 13;
+}
+.button[name='4'] {
+  order: 8;
+  margin-top: -72px;
+}
+.button[name='5'] {
+  order: 9;
+  margin-top: -72px;
+}
+.button[name='6'] {
+  order: 10;
+  margin-top: -72px;
+  margin-right: 64px;
+}
+.button[name='7'] {
+  order: 4;
+}
+.button[name='8'] {
+  order: 5;
+}
+.button[name='9'] {
+  order: 6;
+}
+.button[name='.'] {
+  order: 16;
+  margin-top: -72px;
+}
+.button[name='+'] {
+  order: 7;
+  height: 136px;
+}
+.button[name='-'] {
+  order: 3;
+}
+.button[name='*'] {
+  order: 2;
+}
+.button[name='/'] {
+  order: 1;
+}
+.button[name='='] {
+  order: 14;
+  height: 136px;
+}
