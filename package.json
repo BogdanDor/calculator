@@ -4,7 +4,8 @@
   "description": "Just a calculator",
   "main": "index.html",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
   },
   "author": "Bogdan Doroschenko",
   "license": "ISC",
